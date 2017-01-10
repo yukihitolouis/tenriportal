@@ -1,0 +1,10 @@
+TODO:
+
+-ob_start(); should be removed from wp-config.php once the white page error is resolved
+-pagination in the search results page not working
+-medium view port breaks
+-filter search not working
+-comments should be most prominent feature
+1. Enable search over meta_key (custom fields)
+2. Reorganise single view
+3. Change custom post type to cater for other types of resources

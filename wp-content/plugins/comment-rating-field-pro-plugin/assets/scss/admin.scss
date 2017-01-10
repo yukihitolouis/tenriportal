@@ -1,0 +1,78 @@
+form.comment-rating-field-pro-plugin {
+	/**
+	* Title
+	*/
+	div#titlediv {
+		margin-bottom: 20px;
+	}
+	
+	/**
+	* Sortables
+	*/
+	#sortable {
+		div.option {
+			p {
+				a.dashicons-sort {
+					margin-top: 5px;
+				}
+			}
+		}	
+	}
+	
+	/**
+	* Color Picker
+	*/
+	a.wp-color-result {
+		margin: 0;
+	}
+	
+	/**
+	* Conditional Settings
+	*/
+	.extra-options {
+		display: none;
+	}
+}
+
+/**
+* Edit Comment Rating
+*/
+#comment-rating-field-pro-plugin-ratings {
+	/**
+	* Rows
+	*/
+	div.inside {
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+
+	/**
+	* Rating Field
+	*/
+	p.crfp-field {
+		float: none;
+
+		label {
+			font-weight: bold;
+		}
+		span.star-rating-control {
+			float: right;
+			display: inline-block;
+			margin-top: 5px;
+		}
+	}
+}
+
+/**
+* TinyMCE
+*/
+i.mce-i-icon {
+	font: normal 20px/1 'dashicons';
+	padding: 0;
+	vertical-align: top;
+	speak: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	margin-left: -2px;
+	padding-right: 2px;
+}

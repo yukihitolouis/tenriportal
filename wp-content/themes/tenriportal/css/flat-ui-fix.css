@@ -1,0 +1,60 @@
+ 
+.btn-link,
+.btn-link:active,
+.btn-link[disabled] {
+  background-color: transparent;
+  background-image: none;
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+}
+
+.btn-link {
+  cursor: pointer;
+  border-color: transparent;
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+}
+
+.btn-link:hover{
+  background-color: transparent;
+  text-decoration: none;
+  color:#1f7f5c;
+}
+
+.btn-link:focus{
+  background-color: transparent;
+  text-decoration: none;
+  color:#ffffff;
+}
+
+.dropdown-toggle{
+	border-radius: 0 !important;
+}
+
+
+li a{
+	color:#ffffff;
+}
+
+.single-contents a{
+	color:#00a0e9;
+}
+
+.taglisting a{
+	color:#ffffff;
+}
+
+.btn{
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+article a{
+	color:#0088aa !important
+}
+
+article a.btn{
+	color:#ffffff !important;
+}

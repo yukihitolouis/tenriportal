@@ -1,0 +1,1 @@
+[02-Aug-2016 13:22:35 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/halzco/public_html/pathways/wp-content/themes/pathways_yoshicopy/index.php on line 14

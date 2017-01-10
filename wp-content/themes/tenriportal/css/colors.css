@@ -1,0 +1,14 @@
+.red h3,
+.red a:hover{
+	color: #b75654 !important;
+}
+
+.blue h3,
+.blue a:hover{
+	color: #5a9aa8 !important;
+}
+
+.green h3,
+green a:hover{
+	color: #1f7f5c !important;
+}

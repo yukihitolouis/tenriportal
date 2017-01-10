@@ -1,0 +1,601 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Comment Rating Field Pro Plugin\n"
+"POT-Creation-Date: 2014-01-07 11:50-0000\n"
+"PO-Revision-Date: 2015-02-15 14:44-0400\n"
+"Last-Translator: e-rgonomy.com <info@e-rgonomy.com>\n"
+"Language-Team: WP Cube <support@wpcube.co.uk>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /Users/tim/Sites/wpcube/wp-content/plugins/comment-"
+"rating-field-pro-plugin\n"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/comment-rating-field-pro-plugin.php:40
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:3
+msgid "Settings"
+msgstr "Opciones"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/comment-rating-field-pro-plugin.php:40
+msgid "Rating Fields"
+msgstr "Campos de valoración"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/comment-rating-field-pro-plugin.php:267
+msgid "Rating field created."
+msgstr "Campo de valoración creado."
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/comment-rating-field-pro-plugin.php:279
+msgid "Field deleted."
+msgstr "Campo borrado."
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/comment-rating-field-pro-plugin.php:333
+msgid "Fields activated."
+msgstr "Campos activados."
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/comment-rating-field-pro-plugin.php:341
+msgid "Fields deleted."
+msgstr "Campos borrados."
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/comment-rating-field-pro-plugin.php:349
+msgid "Fields deactivated."
+msgstr "Campos desactivados."
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/comment-rating-field-pro-plugin.php:372
+msgid "Settings Updated."
+msgstr "Opciones actualizadas."
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/comment-rating-field-pro-plugin.php:412
+msgid ""
+"Comment Rating Field Pro uses the comment_form() function to output rating "
+"fields on the comments form. Your theme does not use this, so you'll need to "
+"manually add a call to display_rating_field(). Please refer to the "
+"Documentation for instructions on how to do this."
+msgstr ""
+"Comment Rating Field Pro usa la función comment_form() para mostrar los "
+"campos de valoración el formulario de comentarios. Si su tema no la usa, "
+"necesita hacer una llamada manual a display_rating_field(). Vea la "
+"documentación para obtener instrucciones sobre como hacerlo."
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/comment-rating-field-pro-plugin.php:419
+msgid ""
+"Comment Rating Field Pro requires at least one Rating Field in order to "
+"function. <a href=\"admin.php?page="
+msgstr ""
+"Comment Rating Field Pro requiere almenos un campo de valoración para "
+"funcionar. <a href=\"admin.php?page="
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/comment-rating-field-pro-plugin.php:462
+msgid "No ratings were left by this user."
+msgstr "Ninguna valoración ha sido enviada por este usuario."
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/comment-rating-field-pro-plugin.php:791
+msgid "from"
+msgstr "de"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/comment-rating-field-pro-plugin.php:793
+msgid "rating"
+msgstr "valoración"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/comment-rating-field-pro-plugin.php:793
+msgid "ratings"
+msgstr "valoraciones"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/comment-rating-field-pro-plugin.php:924
+msgid "Display the top rated Posts for any given taxonomy."
+msgstr "Mostrar entradas más valoradas de cada taxonomía proporcionada."
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/comment-rating-field-pro-plugin.php:925
+msgid "CRFP Top Rated Posts"
+msgstr "CRFP Entradas más valoradas"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/_modules/dashboard/views/dashboard-nodata.php:14
+msgid ""
+"Thanks for using our plugins - why not check out some of our other amazing "
+"Premium WordPress Plugins?"
+msgstr ""
+"Gracias por usar nuestros plugins. ¿Porque no conoce algunos de nuestros "
+"extraordinarios plugins Premium para Wordpress?"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/_modules/dashboard/views/dashboard-nodata.php:15
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/_modules/dashboard/views/dashboard.php:40
+msgid "Visit WP Cube"
+msgstr "Visitar WP Cube"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/_modules/dashboard/views/dashboard.php:18
+msgid ""
+"Thanks for using our plugins - why not check out some of our other amazing "
+"Premium WordPress Plugins below?"
+msgstr ""
+"Gracias por usar nuestros plugins. ¿Porque no conoce algunos de nuestros "
+"extraordinarios plugins Premium para Wordpress mencionados abajo?"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/_modules/dashboard/views/dashboard.php:33
+msgid "Visit the WP Cube Web Site"
+msgstr "Visitar la web WP Cube"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/_modules/dashboard/views/dashboard.php:39
+msgid "Why not visit"
+msgstr "¿Porque no visita"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/_modules/dashboard/views/dashboard.php:39
+msgid "and check out some of our other amazing Premium WordPress Plugins?"
+msgstr ""
+"y conoce algunos de nuestros extraordinarios plugins Premium para Wordpress?"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/_modules/dashboard/views/footer-upgrade.php:5
+msgid "Upgrade to Pro"
+msgstr "Actualizar a Pro"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/_modules/dashboard/views/footer-upgrade.php:16
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/_modules/dashboard/views/sidebar-pro.php:23
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/_modules/dashboard/views/sidebar-pro.php:28
+msgid "Support"
+msgstr "Soporte"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/_modules/dashboard/views/footer-upgrade.php:16
+msgid "Access to one on one email support"
+msgstr "Acceso a soporte por correo electrónico"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/_modules/dashboard/views/footer-upgrade.php:17
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/_modules/dashboard/views/sidebar-pro.php:27
+msgid "Documentation"
+msgstr "Documentación"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/_modules/dashboard/views/footer-upgrade.php:17
+msgid "Detailed documentation on how to install and configure the plugin"
+msgstr "Documentación específica sobre como instalar y configurar el plugin"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/_modules/dashboard/views/footer-upgrade.php:18
+msgid "Updates"
+msgstr "Actualizaciones"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/_modules/dashboard/views/footer-upgrade.php:18
+msgid ""
+"Receive one click update notifications, right within your WordPress "
+"Adminstration panel"
+msgstr ""
+"Recibir notificaciones para actualización con un clic, directamente desde el "
+"Panel de Control"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/_modules/dashboard/views/footer-upgrade.php:19
+msgid "Seamless Upgrade"
+msgstr "Actualización automática"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/_modules/dashboard/views/footer-upgrade.php:19
+msgid "Retain all current settings when upgrading to Pro"
+msgstr "Mantener todas las opciones al actualizar a la versión Pro"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/_modules/dashboard/views/footer-upgrade.php:25
+msgid "Upgrade Now"
+msgstr "Actualizar ahora"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/_modules/dashboard/views/sidebar-donate.php:10
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/_modules/dashboard/views/sidebar-pro.php:10
+msgid "About"
+msgstr "Sobre"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/_modules/dashboard/views/sidebar-donate.php:13
+msgid ""
+"Found this plugin useful? Donations to help with support and development are "
+"appreciated."
+msgstr ""
+"¿Le ha resultado útil, este plugin? Los donativos para ayudarnos con el "
+"soporte y el desarrollo son muy apreciados."
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/_modules/dashboard/views/sidebar-donate.php:30
+msgid "Donate Now"
+msgstr "Hacer un donativo"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/_modules/dashboard/views/sidebar-donate.php:40
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/_modules/dashboard/views/sidebar-upgrade.php:10
+msgid "Keep Updated"
+msgstr "Manténgase actualizado"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/_modules/dashboard/views/sidebar-donate.php:43
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/_modules/dashboard/views/sidebar-upgrade.php:13
+msgid ""
+"Subscribe to the newsletter and receive updates on our WordPress Plugins"
+msgstr ""
+"Suscribirse a nuestro boletín para recibir actualizaciones sobre nuestros "
+"plugins"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/_modules/dashboard/views/sidebar-donate.php:49
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/_modules/dashboard/views/sidebar-upgrade.php:19
+msgid "Email"
+msgstr "e-Mail"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/_modules/dashboard/views/sidebar-donate.php:55
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/_modules/dashboard/views/sidebar-upgrade.php:25
+msgid "Subscribe"
+msgstr "Suscribir"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/_modules/dashboard/views/sidebar-pro.php:14
+msgid "Version"
+msgstr "Versión"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/_modules/licensing/lum.php:95
+msgid ": Please specify a license key on the Licensing screen"
+msgstr ": Indique una clave de licencia en la página de Registro"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/_modules/licensing/lum.php:123
+msgid ": "
+msgstr ": "
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/_modules/licensing/lum.php:130
+msgid "License key is valid."
+msgstr "Clave de licencia válida."
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/_modules/licensing/lum.php:260
+msgid ""
+"Plugin updated, but could not be reactivated. Please reactivate manually."
+msgstr "Plugin actualizado, pero  no se ha reactivado. Hagalo manualmente."
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/_modules/licensing/lum.php:263
+msgid "Plugin updated and reactivated successfully."
+msgstr "Plugin actualizado y reactivado correctamente."
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/_modules/licensing/views/licensing.php:3
+msgid "Licensing"
+msgstr "Licencia"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/_modules/licensing/views/licensing.php:27
+msgid "License Key"
+msgstr "Clave de licencia"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/_modules/licensing/views/licensing.php:39
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/fields-form.php:78
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:304
+msgid "Save"
+msgstr "Guardar"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/models/fields-table.php:33
+msgid "Field Label"
+msgstr "Etiqueta de campo"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/models/fields-table.php:34
+msgid "Targeting"
+msgstr "Orientación"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/models/fields-table.php:35
+msgid "Required"
+msgstr "Obligatorio"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/models/fields-table.php:55
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/models/fields-table.php:122
+msgid "Delete"
+msgstr "Borrar"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/models/fields-table.php:119
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/models/fields-table.php:121
+msgid "Edit this item"
+msgstr "Editar este elemento"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/models/fields-table.php:121
+msgid "Edit"
+msgstr "Editar"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/models/fields-table.php:122
+msgid "Delete this item"
+msgstr "Borrar este elemento"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/models/fields.php:109
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/models/fields.php:145
+msgid "Fields could not be obtained from the database."
+msgstr "Los campos no pueden ser recuperados de la base de datos."
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/models/fields.php:247
+msgid "Please enter the rating field label."
+msgstr "Indicar una etiqueta para el campo de valoración."
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/models/fields.php:248
+msgid "Please choose at least one Placement Option."
+msgstr "Seleccione al menos una opción de posicionamiento."
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/models/fields.php:263
+msgid "Field could not be edited in the database. DB said: "
+msgstr "El campo no puede ser editado en la base de datos. DB dijo:"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/models/fields.php:278
+msgid "Field could not be saved to the database. DB said: "
+msgstr "El campo no puede ser guardado en la base de datos. DB dijo:"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/models/fields.php:300
+msgid "Field could not be deleted from the database."
+msgstr "El campo no puede ser borrado de la base de datos."
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/models/fields.php:318
+msgid "Fields could not be deleted from the database."
+msgstr "Los campos no pueden ser borrados de la base de datos."
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/fields-form.php:28
+msgid "Rating Field"
+msgstr "Campo de valoración"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/fields-form.php:33
+msgid "Label"
+msgstr "Etiqueta"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/fields-form.php:40
+msgid "Required?"
+msgstr "¿Obligatorio?"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/fields-form.php:47
+msgid "Required Text"
+msgstr "Texto Obligatorio"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/fields-form.php:54
+msgid "Cancel Text"
+msgstr "Texto Cancelar"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/fields-form.php:88
+msgid "Targeted Placement Options"
+msgstr "Opciones específicas de posicionamiento"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/fields-form.php:98
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/fields-form.php:112
+msgid "Enable on "
+msgstr "Activar en"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/fields-form.php:99
+msgid ": Enable on All "
+msgstr ": Activar en todo"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/fields-table.php:4
+msgid "Fields"
+msgstr "Campos"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/fields-table.php:5
+msgid "Add New"
+msgstr "Agregar nuevo"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/fields-table.php:10
+msgid "Search results for"
+msgstr "Resultados de búsqueda para"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/fields-table.php:31
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/fields-table.php:33
+msgid "Search Rating Fields"
+msgstr "Campos Buscar Valoración"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/popup.php:8
+msgid "Insert Average Rating"
+msgstr "Insertar valoración promedio"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/popup.php:20
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:71
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:155
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:239
+msgid "Display"
+msgstr "Mostrar"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/popup.php:22
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:74
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:158
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:242
+msgid "Display when ratings exist"
+msgstr "Mostrar cuando haya valoraciones"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/popup.php:23
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:75
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:159
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:243
+msgid "Always Display"
+msgstr "Mostrar siempre"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/popup.php:30
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:94
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:178
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:262
+msgid "Style"
+msgstr "Estilo"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/popup.php:32
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:96
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:180
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:264
+msgid "Yellow Stars only"
+msgstr "Solo estrellas amarillas"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/popup.php:33
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:97
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:181
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:265
+msgid "Yellow Stars with Grey Stars"
+msgstr "Estrellas amarillas y grises"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/popup.php:40
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:105
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:189
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:273
+msgid "Show Average"
+msgstr "Mostrar promedio"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/popup.php:42
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/popup.php:69
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:53
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:108
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:136
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:192
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:220
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:276
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:294
+msgid "Yes"
+msgstr "Sí"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/popup.php:43
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/popup.php:70
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:52
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:107
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:135
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:191
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:219
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:275
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:293
+msgid "No"
+msgstr "No"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/popup.php:50
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:199
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:283
+msgid "Average Rating Text"
+msgstr "Texto de promedio"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/popup.php:57
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:123
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:207
+msgid "Total Ratings"
+msgstr "Total valoraciones"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/popup.php:59
+msgid "Do not display"
+msgstr "No mostrar"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/popup.php:60
+msgid "Display the total number of ratings"
+msgstr "Mostrar el total de valoraciones"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/popup.php:67
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:133
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:217
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:291
+msgid "Show Breakdown"
+msgstr "Mostrar desglose"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/popup.php:76
+msgid "Insert"
+msgstr "Insertar"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:29
+msgid "Rating Input"
+msgstr "Entrada de valoración"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:33
+msgid "Controls where the rating field(s) are displayed on the Comment Form"
+msgstr ""
+"Controla donde el campo de valoración es mostrado en el formulario de "
+"comentarios"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:39
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:84
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:168
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:252
+msgid "Position"
+msgstr "Posición"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:41
+msgid "After Comment Field"
+msgstr "Campo después del comentario"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:42
+msgid "Before Comment Field"
+msgstr "Campo antes del comentario"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:43
+msgid "Top of Comment Form / Before All Comment Fields"
+msgstr "Encabezado del formulario de comentarios / Antes de todos los campos"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:50
+msgid "Disable on Replies"
+msgstr "Desactivar en respuestas"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:61
+msgid "Rating Output: Excerpt"
+msgstr "Salida de valoración: Extracto"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:65
+msgid ""
+"Allows you to display average ratings on archive pages, such as your Post "
+"lists"
+msgstr ""
+"Permite mostrar los promedios en la páginas de archivo, como en las listas "
+"de entradas"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:73
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:157
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:241
+msgid "Never Display"
+msgstr "No mostrar nunca"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:86
+msgid "Below Excerpt"
+msgstr "Antes del extracto"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:87
+msgid "Above Excerpt"
+msgstr "Debajo del extracto"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:99
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:183
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:267
+msgid ""
+"If Yellow Stars with Grey Stars is chosen, ratings with less than 5 stars "
+"will show a mix denoting the rating in yellow plus remaining non-rating in "
+"grey."
+msgstr ""
+"Si se selecciona mostrar estrellas amarillas y grises, las valoraciones con "
+"menos de 5 estrellas se mostrarán con una mezcla de estrellas amarillas de "
+"la valoración y las restantes en gris."
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:115
+msgid "Average Label"
+msgstr "Etiqueta Promedio"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:117
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:201
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:285
+msgid ""
+"If Display Average Rating above is selected, optionally define text to "
+"appear before the average rating stars are displayed."
+msgstr ""
+"Si la opción de mostrar promedio está habilitada, se puede definir un texto "
+"adicional para mostrar antes del promedio."
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:125
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:209
+msgid "Do not display the total number of ratings after the average rating"
+msgstr "No mostrar el total de valoraciones después del promedio"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:126
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:210
+msgid "Display the total number of ratings after the average rating"
+msgstr "Mostrar el total de valoraciones después del promedio"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:145
+msgid "Rating Output: Content"
+msgstr "Salida de valoración: Contenido"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:149
+msgid ""
+"Allows you to display average ratings on single Pages, Posts and Custom Post "
+"Types"
+msgstr ""
+"Permite mostrar los promedios en páginas, entradas y tipos de entradas "
+"personalizados"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:170
+msgid "Below Content"
+msgstr "Antes del contenido"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:171
+msgid "Above Content"
+msgstr "Debajo del contenido"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:229
+msgid "Rating Output: Comments"
+msgstr "Salida de valoración: Comentarios"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:233
+msgid "Defines how ratings are displayed on Comments"
+msgstr "Define como las valiraciones son mostradas en los comentarios"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:254
+msgid "Below Comment Text"
+msgstr "Antes del texto del comentario"
+
+#: /Users/tim/Sites/wpcube/wp-content/plugins/comment-rating-field-pro-plugin/views/settings.php:255
+msgid "Above Comment Text"
+msgstr "Debajo del texto del comentario"
