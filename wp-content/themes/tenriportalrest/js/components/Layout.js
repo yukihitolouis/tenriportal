@@ -2,7 +2,7 @@ import React from "react"
 import { connect } from "react-redux"
 
 import { fetchUser } from "../actions/userActions"
-import { fetchPosts } from "../actions/postsActions"
+import { fetchBooks } from "../actions/postsActions"
 
 @connect((store) => {
   return {
@@ -16,22 +16,32 @@ export default class Layout extends React.Component {
     this.props.dispatch(fetchUser())
   }
 
-  fetchPosts() {
-    this.props.dispatch(fetchPosts())
+  fetchBooks() {
+    this.props.dispatch(fetchBooks())
   }
 
   render() {
     const { user, posts } = this.props;
-    console.log('posts', posts);
-    if (!posts.acf) {
-      return <button onClick={this.fetchPosts.bind(this)}>load posts</button>
+
+    if (!posts.length) {
+      return <button onClick={this.fetchBooks.bind(this)}>load books</button>
     }
 
-    return <div>
-      <h1>{user.name}</h1>
-      <div>{posts.title.rendered}</div>
-      <div>{posts.acf.subtitle}</div>
-        <input type="checkbox" checked={posts.acf.is_tenrikyo_book}/>
-    </div>
+    if (posts.length) {
+      var listItems = this.props.posts.map((post) => {
+        return (
+          <li key={post.id}>
+            {post.title.rendered}
+            <img border="0" src={post._embedded['wp:featuredmedia'][0]['media_details']['sizes']['thumbnail']['source_url']}/>
+          </li>
+        );
+      });
+    }
+
+    return (
+      <ul>
+        {listItems}
+      </ul>
+    );
   }
 }

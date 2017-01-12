@@ -14,6 +14,19 @@ export function fetchPosts() {
   }
 }
 
+export function fetchBooks() {
+  return function(dispatch) {
+    axios.get("http://localhost/wordpress/wp-json/wp/v2/book/?_embed")
+      .then((response) => {
+        console.log('response.data', response.data);
+        dispatch({type: "FETCH_POSTS_FULFILLED", payload: response.data})
+      })
+      .catch((err) => {
+        dispatch({type: "FETCH_POSTS_REJECTED", payload: err})
+      })
+  }
+}
+
 export function addPost(id, text) {
   return {
     type: 'ADD_POST',
