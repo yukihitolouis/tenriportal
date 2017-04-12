@@ -190,22 +190,6 @@ function yt_pre_get_posts( $query ) {
 		return;
 	}
 
-	// edit the query only when post type is 'book_review'
-	// if it isn't, return　
-	// このコードをコメントアウトしないとうまくいかない
-	// なぜなら、book_authorでフィルターかけてもarchive-book_review.phpを使ってくれないから
-	//　なぜかindex.phpを使ってしまう
-	//
-	// genreというtaxonomyでフィルターかけたらちゃんとarchive-book_review.phpをテンプレとして使ってくれるのに
-	//
-	//　book_authorのみでフィルターかけたときのurl: http://localhost/wordpress/?book_author=Yoshikazu+Fukaya&genre=&post_type=book_review
-	// genreというtaxonomyでフィルターかけたら
-	// http://localhost/wordpress/genre/anthology/?book_author=Yoshikazu+Fukaya&post_type=book_review
-
-/*	if ( !is_post_type_archive( 'book_review' ) ){
-		return;
-	}*/
-
 	$meta_query = array();
 
 	// add meta_query elements
@@ -247,7 +231,7 @@ function book_search_form( $args ){
 			$book_author = get_post_meta( get_the_ID(), 'book_author', true );
 			
 			// populate an array of all occurrences (non duplicated)
-			if( !in_array( $book_author, $book_authors ) ){
+			if( !in_array( $book_author, $book_authors)  && $book_author != '' ){
 				$book_authors[] = $book_author;    
 			}
 		}
