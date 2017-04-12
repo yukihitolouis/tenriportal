@@ -376,10 +376,14 @@ function relevanssi_remove_stopword($term) {
 	$success = $wpdb->query($q);
 
 	if ($success) {
-		printf(__("<div id='message' class='updated fade'><p>Term '%s' removed from stopwords! Re-index to get it back to index.</p></div>", "relevanssi"), stripslashes($term));
+		echo "<div id='message' class='updated fade'><p>";
+		printf(__("Term '%s' removed from stopwords! Re-index to get it back to index.", "relevanssi"), stripslashes($term));
+		echo "</p></div>";
 	}
 	else {
-		printf(__("<div id='message' class='updated fade'><p>Couldn't remove term '%s' from stopwords!</p></div>", "relevanssi"), stripslashes($term));
+		echo "<div id='message' class='updated fade'><p>";
+		printf(__("Couldn't remove term '%s' from stopwords!", "relevanssi"), stripslashes($term));
+		echo "</p></div>";
 	}
 }
 
@@ -442,10 +446,10 @@ function relevanssi_query_log() {
 	echo '<h3>' . __("Common Queries", 'relevanssi') . '</h3>';
 
 	$limit = apply_filters('relevanssi_user_searches_limit', 20);
-	$lead = __("Here you can see the $limit most common user search queries, how many times those
+	$lead = __("Here you can see the %d most common user search queries, how many times those
 		queries were made and how many results were found for those queries.", 'relevanssi');
 
-	echo "<p>$lead</p>";
+	sprintf("<p>" . $lead . "</p>", $limit);
 
 	echo "<div style='width: 30%; float: left; margin-right: 2%; overflow: scroll'>";
 	relevanssi_date_queries(1, __("Today and yesterday", 'relevanssi'));
@@ -482,7 +486,7 @@ function relevanssi_query_log() {
 		echo '<h3>' . __('Reset Logs', 'relevanssi') . "</h3>\n";
 		echo "<form method='post'>\n$nonce";
 		echo "<p>";
-		printf(__('To reset the logs, type "reset" into the box here %s and click %s', 'relevanssi'), ' <input type="text" name="relevanssi_reset_code" />', 'and click <input type="submit" name="relevanssi_reset" value="Reset" class="button" />');
+		printf(__('To reset the logs, type "reset" into the box here %s and click %s', 'relevanssi'), ' <input type="text" name="relevanssi_reset_code" />', ' <input type="submit" name="relevanssi_reset" value="Reset" class="button" />');
 		echo "</p></form>";
 
 	}
@@ -1022,12 +1026,11 @@ function relevanssi_options_form() {
 	<small><?php _e("Comma-separated list of numeric user IDs or user login names that will not be logged.", "relevanssi"); ?></small>
 
 <?php
-	if (RELEVANSSI_PREMIUM) {
-		echo "<p>" . __("If you enable logs, you can see what your users are searching for. You can prevent your own searches from getting in the logs with the omit feature.", "relevanssi") . "</p>";
+	echo "<p>" . __("If you enable logs, you can see what your users are searching for. You can prevent your own searches from getting in the logs with the omit feature.", "relevanssi");
+	if (!RELEVANSSI_PREMIUM) {
+		echo " " . __("Logs are also needed to use the 'Did you mean?' feature.", "relevanssi");
 	}
-	else {
-		echo "<p>" . __("If you enable logs, you can see what your users are searching for. Logs are also needed to use the 'Did you mean?' feature. You can prevent your own searches from getting in the logs with the omit feature.", "relevanssi") . "</p>";
-	}
+	echo "</p>";
 ?>
 
 	<?php if (function_exists('relevanssi_form_hide_branding')) relevanssi_form_hide_branding($hide_branding); ?>
@@ -1055,12 +1058,11 @@ function relevanssi_options_form() {
 	<label for='relevanssi_expst'><?php _e('Exclude these posts/pages from search:', 'relevanssi'); ?>
 	<input type='text'  name='relevanssi_expst' id='relevanssi_expst' size='20' value='<?php echo esc_attr($expst); ?>' /></label><br />
 <?php
+	echo "<small>" . __("Enter a comma-separated list of post/page IDs that are excluded from search results. This only works here, you can't use the input field option (WordPress doesn't pass custom parameters there).", 'relevanssi');
 	if (RELEVANSSI_PREMIUM) {
-		echo "<small>" . __("Enter a comma-separated list of post/page IDs that are excluded from search results. This only works here, you can't use the input field option (WordPress doesn't pass custom parameters there). You can also use a checkbox on post/page edit pages to remove posts from index.", 'relevanssi') . "</small>";
+		echo " " . __("You can also use a checkbox on post/page edit pages to remove posts from index. This setting doesn't work in multisite searches, but the checkbox does.", 'relevanssi');
 	}
-	else {
-		echo "<small>" . __("Enter a comma-separated list of post/page IDs that are excluded from search results. This only works here, you can't use the input field option (WordPress doesn't pass custom parameters there).", 'relevanssi') . "</small>";
-	}
+	echo "</small>";
 ?>
 
 	<br /><br />
@@ -1210,7 +1212,7 @@ function relevanssi_options_form() {
 			else {
 				$checked = '';
 			}
-			$label = sprintf(__("%s", 'relevanssi'), $type);
+			$label = sprintf("%s", $type);
 			in_array($type, $public_types) ? $public = __('yes', 'relevanssi') : $public = __('no', 'relevanssi');
 
 			echo <<<EOH
@@ -1264,7 +1266,7 @@ EOH;
 			else {
 				$checked = '';
 			}
-			$label = sprintf(__("%s", 'relevanssi'), $taxonomy->name);
+			$label = sprintf("%s", $taxonomy->name);
 			$taxonomy->public ? $public = __('yes', 'relevanssi') : $public = __('no', 'relevanssi');
 			$type = $taxonomy->name;
 
@@ -1372,13 +1374,15 @@ function relevanssi_show_stopwords() {
 
 	RELEVANSSI_PREMIUM ? $plugin = 'relevanssi-premium' : $plugin = 'relevanssi';
 
-	_e("<p>Enter a word here to add it to the list of stopwords. The word will automatically be removed from the index, so re-indexing is not necessary. You can enter many words at the same time, separate words with commas.</p>", 'relevanssi');
+	echo "<p>";
+	_e("Enter a word here to add it to the list of stopwords. The word will automatically be removed from the index, so re-indexing is not necessary. You can enter many words at the same time, separate words with commas.", 'relevanssi');
+	echo "</p>";
 
 ?><label for="addstopword"><p><?php _e("Stopword(s) to add: ", 'relevanssi'); ?><textarea name="addstopword" id="addstopword" rows="2" cols="40"></textarea>
 <input type="submit" value="<?php esc_attr_e("Add", 'relevanssi'); ?>" class='button' /></p></label>
-<?php
+<p><?php
 
-	_e("<p>Here's a list of stopwords in the database. Click a word to remove it from stopwords. Removing stopwords won't automatically return them to index, so you need to re-index all posts after removing stopwords to get those words back to index.", 'relevanssi');
+	_e("Here's a list of stopwords in the database. Click a word to remove it from stopwords. Removing stopwords won't automatically return them to index, so you need to re-index all posts after removing stopwords to get those words back to index.", 'relevanssi');
 
 	if (function_exists("plugins_url")) {
 		if (version_compare($wp_version, '2.8dev', '>' )) {
@@ -1393,7 +1397,7 @@ function relevanssi_show_stopwords() {
 		$src = '/wp-content/plugins/' . $plugin . '/delete.png';
 	}
 
-	echo "<ul>";
+	echo "</p><ul>";
 	$results = $wpdb->get_results("SELECT * FROM " . $relevanssi_variables['stopword_table']);
 	$exportlist = array();
 	foreach ($results as $stopword) {
